@@ -27,10 +27,11 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
   chocolateBars.pop();
   return chocolateBars;
 }
+var newCandy = ["pixie stix", "dots", "twizzlers", "starburst"];
 function removeElementFromEndOfArray(newCandy) {
-  var newCandy = ["pixie stix", "dots", "twizzlers", "starburst"]
-  return chocolateBars.slice(0, chocolateBars.length - 2);
+ return newCandy.slice(0, chocolateBars.length - 2);
 }
+
 
 
 
